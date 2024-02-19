@@ -1,8 +1,10 @@
+import CommentInArea from '@/components/comment-in-area';
+
 function App() {
   return (
-    <>
-      <h1 className="text-cyan-200">hola</h1>
-    </>
+    <div className="mt-5 flex items-center justify-center">
+      <CommentInArea />
+    </div>
   );
 }
 
